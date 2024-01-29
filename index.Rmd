@@ -1,0 +1,389 @@
+---
+title: "Macroecologia do conhecimento: identificando vieses na distribuição de tipos primários"
+subtitle: ""
+author: "Gabriel Nakamura"
+institute: "Posdoc Departamento de Ecologia USP | INCT-EECBio | UFG"
+date: "01/02/2023"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
+
+```{r xaringan-animate-css, echo=FALSE}
+xaringanExtra::use_animate_all("fade")
+```
+
+```{r xaringan-tachyons, echo=FALSE}
+xaringanExtra::use_tachyons()
+```
+
+```{r xaringanExtra, echo = FALSE}
+xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
+```
+
+
+???
+Comuna de Saint-Cloud na França
+
+---
+class: middle
+
+.center[
+```{r, eval=TRUE, echo=FALSE, out.width= "50%"}
+knitr::include_graphics(here::here("figs", "thisIsBird.jpeg"))
+```
+]
+
+---
+# Holótipos: os detentores do conceito de espécie
+
+.center[
+.pull-left[
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "holotype-ex.png"))
+```
+
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "holotype-3.jpeg"))
+```
+]
+]
+
+.center[
+.pull-right[
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "holotype-squid.jpeg"))
+```
+
+```{r, echo=FALSE,eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "dino1-holotype.png"))
+```
+]
+
+]
+
+
+---
+class: inverse, middle, center
+
+# Onde estão os holótipos? 
+
+--
+
+## Onde se concentra o conhecimento biológico?
+
+???
+um quilo nem sempre precisa ser checado, mas uma espécie, por mais comum que seja, sempre sucita dúvidas sobre sua identidade... Estamos sempre nos perguntando, o que será isso? Será que os tipos primários estão acessíveis para esse tipo de checagem básica que interfere em quase tudo o resto em bio?
+
+---
+class: inverse, middle, center
+
+# Um exemplo da Paleontologia: o icônico caso do Ubirajara jubatus
+
+```{r, echo=FALSE,eval=TRUE,out.width="100%"}
+knitr::include_graphics(here::here("figs", "ubirajara-jubatus.webp"))
+```
+
+???
+O primeiro dinossauro não aviário com penas descoberto na América do Sul!
+
+---
+
+# Um exemplo da Paleontologia: o icônico caso do Ubirajara jubatus
+
+
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+"..é um holótipo, [...] é uma peça única que serviu de base para a primeira descrição, a descrição original"
+
+.tr[
+— Juan Cisneros para G1 portal de notícias - jun/2023
+]]
+
+--
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "trip-to-germany.png"))
+```
+]
+
+---
+class: inverse, middle, center
+
+# Onde estão os holótipos (das espécies atuais)?
+
+--
+
+## Como os países são caracterizados em relação ao acúmulo de conhecimento biológico?
+
+--
+
+## O conhecimento biológico representa a biodiversidade local?
+
+--
+
+## O que determina o acúmulo de conhecimento biológico?
+
+
+---
+
+# A distribuição de tipos primários de peixes no mundo
+
+.pull-left[
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "fish_holotype.jpeg"))
+knitr::include_graphics(here::here("figs", "fish_holotype.pbm"))
+```
+]
+
+--
+
+.center[
+.pull-right[
+.middle[
+```{r, echo=FALSE, eval=TRUE, out.width="200%"}
+knitr::include_graphics(here::here("figs", "catalog-pic.png"))
+```
+]
+]
+]
+
+---
+
+# A distribuição de tipos primários de peixes no mundo
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%"}
+knitr::include_graphics(here::here("figs", "method-data.png"))
+```
+]
+
+.pull-right[
+- Registro do **local de amostragem** do **tipo primário**
+
+]
+
+---
+
+# A distribuição de tipos primários de peixes no mundo
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%"}
+knitr::include_graphics(here::here("figs", "method-data2.png"))
+```
+]
+
+.pull-right[
+- Registro do **local de amostragem** do **tipo primário**
+
+- Registro do **museu** do **tipo primário**
+
+- Mais de **26 mil** espécies válidas de **peixes de água doce** (e suas sinonímias)
+
+- Avaliação no tempo e espaço
+
+]
+
+---
+
+# O fluxo dos tipo no tempo e espaço
+
+## Onde (e quando) estão os tipos primários?
+
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "chord_diagram_map.png"))
+```
+
+---
+
+# Classificando os países em relação ao conhecimento acumulado
+
+## Quem é quem no acúmulo de conhecimento?
+
+.center[
+```{r, echo=FALSE,eval=TRUE,out.width="80%",fig.retina=3}
+knitr::include_graphics(here::here("figs", "scatterplot_regionwb_arrows_color.png"))
+```
+]
+
+
+---
+# Similaridade entre fauna nativa e composição de tipos
+
+.center[
+```{r, echo=FALSE,eval=TRUE,out.width="72%",fig.retina=3}
+knitr::include_graphics(here::here("figs", "Fig3_map_turnover_all.png"))
+```
+]
+
+
+---
+# Fatores que determinam a distribuição do conhecimento no mundo
+
+.center[
+```{r, echo=FALSE,eval=TRUE,out.width="75%",fig.retina=3}
+knitr::include_graphics(here::here("figs", "fig_model_all2.png"))
+```
+]
+
+---
+class: inverse, middle, center
+
+# Desenvolvimento da ciência
+
+--
+
+Esforço de coleta x Posse do tipo primário
+
+---
+
+# Descoberta de novas espécies
+.center[
+.pull-left[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "carvalho-etal-2022.png"))
+```
+]
+
+.pull-right[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "moura-jetz.png"))
+```
+]
+
+]
+
+
+---
+
+# Padrões ecológicos
+
+## LTG - Gradiente latitudinal taxonômico
+
+.pull-left[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "Pennel-freman-tree.png"))
+
+knitr::include_graphics(here::here("figs", "diniz-filhoetal-frontiers.png"))
+
+```
+]
+
+--
+
+.pull-right[
+```{r, echo=FALSE,eval=TRUE}
+knitr::include_graphics(here::here("figs", "diniz-filho-fig1.png"))
+```
+
+- Incerteza taxonômica afetando **padrões macroecologicos**
+
+- Relação entre **idade e incerteza taxonômica**
+
+]
+
+---
+class: inverse, middle, center
+
+# O que fazer?
+
+---
+# O que fazer?
+
+.pull-left[
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "nagoya-protocol.png"))
+```
+]
+
+--
+
+.pull-right[
+.middle[
+- Digitalizações
+
+- Repatriações
+
+- Programas de financiamento
+
+]
+]
+
+
+---
+# Algumas iniciativas
+
+.pull-left[
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "reflora-brasil.png"))
+knitr::include_graphics(here::here("figs", "herbario-virtual.png"))
+```
+
+]
+
+--
+
+.rigth[
+.pull-right[
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "nagoya-protocol.png"))
+```
+
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "decreto-1990.png"))
+```
+
+]
+]
+
+
+---
+class: inverse, middle, center
+
+# Macroecologia do conhecimento **e** processo científico
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "final-scheme1.png"))
+```
+
+---
+class: inverse, middle, center
+
+# Macroecologia do conhecimento **e** processo científico
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "final-scheme2.png"))
+```
+class: inverse, middle, center
+
+
+---
+class: inverse, middle, center
+
+## Colaboradores
+
+<img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2530919A5" width="100px"/>
+<img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
+
+José Alexandre Diniz-Filho | Livia Frateles | Bruno Mioto
+
+INCT Ecologia, Evolução e Conservação da Biodiversidade
+
+UEM-PPG Ecologia de Ambientes Aquáticos Continentais
+
+
+
+
