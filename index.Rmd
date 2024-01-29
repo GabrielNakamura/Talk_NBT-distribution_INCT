@@ -13,6 +13,8 @@ output:
       countIncrementalSlides: false
 ---
 
+background-image: url(https://www.amnh.org/var/ezflow_site/storage/images/media/amnh/shelf-life/episode-4/ep-4-holotype-tag/1842583-4-eng-US/ep-4-holotype-tag_full_1220.png)
+
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 ```
@@ -34,9 +36,6 @@ xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
 ```
 
 
-???
-Comuna de Saint-Cloud na França
-
 ---
 class: middle
 
@@ -51,11 +50,11 @@ knitr::include_graphics(here::here("figs", "thisIsBird.jpeg"))
 
 .center[
 .pull-left[
-```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+```{r, echo=FALSE,eval=TRUE, out.width="60%"}
 knitr::include_graphics(here::here("figs", "holotype-ex.png"))
 ```
 
-```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+```{r, echo=FALSE,eval=TRUE, out.width="60%"}
 knitr::include_graphics(here::here("figs", "holotype-3.jpeg"))
 ```
 ]
@@ -63,11 +62,11 @@ knitr::include_graphics(here::here("figs", "holotype-3.jpeg"))
 
 .center[
 .pull-right[
-```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+```{r, echo=FALSE,eval=TRUE, out.width="60%"}
 knitr::include_graphics(here::here("figs", "holotype-squid.jpeg"))
 ```
 
-```{r, echo=FALSE,eval=TRUE, out.width="70%"}
+```{r, echo=FALSE,eval=TRUE, out.width="60%"}
 knitr::include_graphics(here::here("figs", "dino1-holotype.png"))
 ```
 ]
@@ -211,10 +210,8 @@ knitr::include_graphics(here::here("figs", "chord_diagram_map.png"))
 
 # Classificando os países em relação ao conhecimento acumulado
 
-## Quem é quem no acúmulo de conhecimento?
-
 .center[
-```{r, echo=FALSE,eval=TRUE,out.width="80%",fig.retina=3}
+```{r, echo=FALSE,eval=TRUE,out.width="90%",fig.retina=3}
 knitr::include_graphics(here::here("figs", "scatterplot_regionwb_arrows_color.png"))
 ```
 ]
