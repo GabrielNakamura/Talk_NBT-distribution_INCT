@@ -4,7 +4,7 @@ output: github_document
 
 # Visão geral
 
-Este repositório contém os slides da palestra ministrada no dia 20/09/2023 no ciclo de palestra "Seminário dos alunos" promovido pela representação discente do PPG Ecologia e Evolução da UFG
+Este repositório contém os slides da palestra ministrada no dia 01/02/2023 no workshop sobre lacunas de conhecimento de biodiversidade, promovido pelo INCT Ecologia, Evolução e Conservação da Biodiversidade, na Universidade Federal de Goiás em Goiânia
 
-Na palestra intitulada "O quilo de Saint Cloud e os detentores do saber: uma historia sobre macroecologia do conhecimento", mostro como se dá a distribuição geográfica de tipos primários de espécies de peixes de água doce do mundo todo, quais as implicações deste padrão de distribuição e como podemos tornar a ciência (o saber) mais equitável e acessível num cenário global.
+Na palestra intitulada **"Macroecologia do conhecimento: identificando vieses na distribuição de tipos primários"**, mostro como se dá a distribuição geográfica de tipos primários (name bearing types) de espécies de peixes de água doce do mundo todo, quais as implicações destes padrões de distribuição para a nossa percepção de padrões ecológicos e construção do conhecimento, bem como formas de tornar a ciência (o saber) mais equitável e acessível e justo num cenário global.
 
