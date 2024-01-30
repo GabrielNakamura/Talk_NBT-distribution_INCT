@@ -13,7 +13,7 @@ output:
       countIncrementalSlides: false
 ---
 
-background-image: url(https://www.amnh.org/var/ezflow_site/storage/images/media/amnh/shelf-life/episode-4/ep-4-holotype-tag/1842583-4-eng-US/ep-4-holotype-tag_full_1220.png)
+background-image: url(https://raw.githubusercontent.com/GabrielNakamura/Talk_NBT-distribution_INCT/master/figs/ep4-header_full_1220.jpeg)
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -231,8 +231,26 @@ knitr::include_graphics(here::here("figs", "Fig3_map_turnover_all.png"))
 # Fatores que determinam a distribuição do conhecimento no mundo
 
 .center[
-```{r, echo=FALSE,eval=TRUE,out.width="75%",fig.retina=3}
-knitr::include_graphics(here::here("figs", "fig_model_all2.png"))
+```{r, echo=FALSE,eval=TRUE,out.width="100%",fig.retina=3}
+knitr::include_graphics(here::here("figs", "model_total-types.jpg"))
+```
+]
+
+---
+# Fatores que determinam a distribuição do conhecimento no mundo
+
+.center[
+```{r, echo=FALSE,eval=TRUE,out.width="100%",fig.retina=3}
+knitr::include_graphics(here::here("figs", "model_proportion.jpg"))
+```
+]
+
+---
+# Fatores que determinam a distribuição do conhecimento no mundo
+
+.center[
+```{r, echo=FALSE,eval=TRUE,out.width="100%",fig.retina=3}
+knitr::include_graphics(here::here("figs", "model_proportion2.jpg"))
 ```
 ]
 
@@ -364,7 +382,7 @@ class: inverse, middle, center
 ```{r, echo=FALSE, eval=TRUE}
 knitr::include_graphics(here::here("figs", "final-scheme2.png"))
 ```
-class: inverse, middle, center
+
 
 
 ---
