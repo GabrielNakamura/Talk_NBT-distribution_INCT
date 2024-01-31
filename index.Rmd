@@ -126,15 +126,19 @@ class: inverse, middle, center
 
 --
 
-## Como os países são caracterizados em relação ao acúmulo de conhecimento biológico?
+### Como os países são caracterizados em relação ao acúmulo de conhecimento biológico?
 
 --
 
-## O conhecimento biológico representa a biodiversidade local?
+### O conhecimento biológico representa a biodiversidade local?
 
 --
 
-## O que determina o acúmulo de conhecimento biológico?
+### O que determina o acúmulo de conhecimento biológico?
+
+--
+
+# Uma abordagem macroecológica do conhecimento
 
 
 ---
