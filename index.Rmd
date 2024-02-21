@@ -362,10 +362,12 @@ class: inverse, middle, center
 
 ## Colaboradores
 
-<img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2530919A5" width="100px"/>
+<img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2530919A5" width="80px"/>
 <img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
+<img style="border-radius: 70%;" src="https://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8865219Y3" width="75px"/>
 
-José Alexandre Diniz-Filho | Livia Frateles | Bruno Mioto
+
+José Alexandre Diniz-Filho | Livia Frateles | Bruno Mioto | Matheus Araujo
 
 INCT Ecologia, Evolução e Conservação da Biodiversidade
 
